@@ -1,12 +1,17 @@
 <resources>
-    <string name="app_name">Speedmeter</string>
+    <string name="app_name">DronePharma</string>
 
     <string name="max_speed">Max Speed</string>
     <string name="average_speed">Average Speed</string>
     <string name="distance">Distance</string>
+    <string name="graph2d">Graph2D</string>
+    <string name="helloworld">Hello World!</string>
     <string name="time">Time</string>
     <string name="accuracy">Accuracy</string>
     <string name="satellite">Satellites</string>
+    <string name="frequency">Frequency</string>
+    <string name="titlefrequency">Frequency</string>
+
 
     <string name="waiting_for_fix">Waiting for GPS fix …</string>
     <string name="gps_disabled">GPS disabled</string>
@@ -16,6 +21,8 @@
     <string name="notification">Max Speed : %1$s, Distance : %2$s.</string>
 
     <string name="settings">Settings</string>
+    <string name="Map">Map</string>
+    <string name="DisplayMessageActivity">Display message</string>
     <string name="app_info">About this app</string>
     <string name="pref_auto_average">Automatically detect stop time.</string>
     <string name="pref_auto_average_summary">The time spent at stop will not count in the average speed.</string>
@@ -27,10 +34,19 @@
     <string name="donate_summary">Click in order to support my work :) …</string>
     <string name="source_code">GitHub</string>
     <string name="source_code_summary">Access to the source code.</string>
-    <string name="version">Speedmeter Version</string>
+    <string name="yposition">YPosition :</string>
+    <string name="xposition">XPosition :</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCeZWyFhnvCqMniphpLOd85G-j-QFNLEHE</string>
+    <string name="title_activity_maps">Current Location</string>
 
+    <string name="license_type">....</string>
+    <string name="github">....</string>
+    <string name="doante_url">....</string>
+
+    <string name="normal_map">carte normal</string>
+    <string name="hybrid_map">carte Hybride</string>
+    <string name="satellite_map">carte satellite</string>
+    <string name="terrain_map">carte terrain</string>
     <string name="noti_id" translatable="false">Speedmeterisanid</string>
-    <string name="github" translatable="false">https://github.com/flyingrub/SpeedMeter</string>
-    <string name="license_type" translatable="false">GNU General Public License 2</string>
-    <string name="doante_url" translatable="false">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=6DE8SFMJKRVK2</string>
+
 </resources>

@@ -97,14 +97,14 @@ public class GpsServices extends Service implements LocationListener, GpsStatus.
     public int onStartCommand(Intent intent, int flags, int startId) {
         // If we get killed, after returning from here, restart
         return START_STICKY;
-    }   
-       
+    }
+
     @Override
     public IBinder onBind(Intent intent) {
         // We don't provide binding, so return null
         return null;
     }
-   
+
     /* Remove the locationlistener updates when Services is stopped */
     @Override
     public void onDestroy() {
@@ -118,10 +118,10 @@ public class GpsServices extends Service implements LocationListener, GpsStatus.
 
     @Override
     public void onProviderDisabled(String provider) {}
-   
+
     @Override
     public void onProviderEnabled(String provider) {}
-   
+
     @Override
     public void onStatusChanged(String provider, int status, Bundle extras) {}
 
